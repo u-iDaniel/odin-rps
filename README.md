@@ -1,3 +1,3 @@
 # odin-rps
 
-Rock paper scissors game. Played entirely within the console.
+Rock paper scissors game. Played with button UI.
