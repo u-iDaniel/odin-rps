@@ -42,4 +42,22 @@ function playGame() {
     }
 }
 
+let body = document.querySelector('body');
+body.addEventListener("click", (event) => {
+    let target = event.target;
+
+    switch (target.id) {
+        case 'rock':
+            console.log("Rock!");
+            break;
+        case 'paper':
+            console.log("Paper!");
+            break;
+        case 'scissors':
+            console.log("Scissors!");
+            break;
+    }
+})
+
+
 playGame();
